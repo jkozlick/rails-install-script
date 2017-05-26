@@ -13,10 +13,8 @@ sudo apt-get install build-essential curl git -y
 sudo apt-get install graphviz imagemagick -y
 
 # Install RVM with current Ruby and rails
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB88
-2D39DC0E3
-curl -sSL https://get.rvm.io | bash -s stable --ruby --gems=rails && rvm requiree
-ments
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable --ruby --gems=rails && rvm requirements
 echo "[[ -s \"/home/$USER/.rvm/scripts/rvm\" ]] && source \"/home/$USER/.rvm/scripts/rvm\"" >> ~/.bashrc
 
 # Install NVM with current NodeJS
