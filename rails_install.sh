@@ -17,8 +17,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 2D39DC0E3
 curl -sSL https://get.rvm.io | bash -s stable --ruby --gems=rails && rvm requiree
 ments
-echo "[[ -s \"/home/$USER/.rvm/scripts/rvm\" ]] && source \"/home/$USER/.rvm/scrr
-ipts/rvm\"" >> ~/.bashrc
+echo "[[ -s \"/home/$USER/.rvm/scripts/rvm\" ]] && source \"/home/$USER/.rvm/scripts/rvm\"" >> ~/.bashrc
 
 # Install NVM with current NodeJS
 # I do my best to keep this up to date, but it may be worth checking what the most current version ios before you run the script
