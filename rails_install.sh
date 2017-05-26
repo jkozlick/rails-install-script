@@ -22,7 +22,7 @@ echo "[[ -s \"/home/$USER/.rvm/scripts/rvm\" ]] && source \"/home/$USER/.rvm/scr
 #  https://github.com/creationix/nvm#install-script
 
 curl https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
-source ~/.nvm/nvm.#!/bin/sh
+source ~/.nvm/nvm.sh 
 nvm install stable
 nvm use stable
 echo "source ~/.nvm/nvm.sh" >> ~/.bashrc
